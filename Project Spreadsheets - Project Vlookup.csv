@@ -1,0 +1,47 @@
+Enriching Our Data with VLOOKUP,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Employee,,,,,,,,,,,,,,,,,
+ssn,lastname,firstname,hiredate,salary,gender,performance,positionID,locationID,locationcity,address,state,zipcode,officephone,positiontitle,educationrequired,minsalary,maxsalary
+000-01-0000,Milgrom,Patricia,10/1/2004,"$57,500",F,Average,2,2,Boston,3 Commons Blvd,MA,2190,(617)123-4444,Manager,4 year degree,50000,150000
+000-02-2222,Adams,Sandy,1/15/2001,"$19,500",F,Average,3,1,Atlanta,450 Peachtree Rd,GA,30316,(404)333-5555,Trainee,2 year degree,18000,25000
+109-87-6543,Wood,Emily,3/12/1997,"$69,000",F,Average,2,5,New York City,1650 Washington Blvd,NY,15648,(518)256-3100,Manager,4 year degree,50000,150000
+109-87-6544,Foster,Harold,8/14/2005,"$55,000",M,Good,1,3,Chicago,500 Loop Highway,IL,60620,(312)444-6666,Account Representative,4 year degree,25000,75000
+111-12-1111,Johnson,James,5/3/1996,"$47,500",M,Good,1,3,Chicago,500 Loop Highway,IL,60620,(312)444-6666,Account Representative,4 year degree,25000,75000
+123-45-6789,Coulter,Tracy,2/14/1993,"$100,000",,Good,2,1,Atlanta,450 Peachtree Rd,GA,30316,(404)333-5555,Manager,4 year degree,50000,150000
+222-23-2222,Marlin,Bill,3/28/1977,"$125,000",M,,2,4,Miami,210 Biscayne Blvd,FL,33103,(305)787-9999,Manager,4 year degree,50000,150000
+222-52-5555,Smith,Mary,1/1/2006,"$42,500",F,Average,1,3,Chicago,500 Loop Highway,IL,60620,(312)444-6666,Account Representative,4 year degree,25000,75000
+245-67-8910,Johanson,Sandy,6/2/2005,"$69,000",F,,1,6,Denver,312 Mount View Dr,CO,54657,(205)607-5289,Account Representative,4 year degree,25000,75000
+333-34-3333,Manin,Emily,12/1/2000,"$49,500",F,Average,1,2,Boston,3 Commons Blvd,MA,2190,(617)123-4444,Account Representative,4 year degree,25000,75000
+333-43-4444,Smith,Frank,1/29/1991,"$65,000",M,Good,1,1,Atlanta,450 Peachtree Rd,GA,30316,(404)333-5555,Account Representative,4 year degree,25000,75000
+333-66-1234,Brown,Marietta,3/7/2001,"$18,500",F,Poor,3,1,Atlanta,450 Peachtree Rd,GA,30316,(404)333-5555,Trainee,2 year degree,18000,25000
+335-55-5533,Jones,Holly,4/8/1986,"$65,000",F,Good,2,5,New York City,1650 Washington Blvd,NY,15648,(518)256-3100,Manager,4 year degree,50000,150000
+432-19-8765,Bronson,Paul,11/20/2003,"$58,000",M,Good,2,6,Denver,312 Mount View Dr,CO,54657,(205)607-5289,Manager,4 year degree,50000,150000
+444-45-4444,Frank,Vernon,4/10/1985,"$75,000",M,Good,1,4,Miami,210 Biscayne Blvd,FL,33103,(305)787-9999,Account Representative,4 year degree,25000,75000
+464-64-4466,Webster,David,1/29/1991,"$58,500",M,Poor,2,7,Salt Lake City,316 S. State St,UT,84125,(801)459-6652,Manager,4 year degree,50000,150000
+500-50-0505,Rodriguez,Jose,7/16/1998,"$150,000",M,Good,4,5,New York City,1650 Washington Blvd,NY,15648,(518)256-3100,Regional Manager,6 year degree,100000,250000
+555-22-3333,Rubin,Patricia,7/25/2003,"$45,000",F,Average,1,2,Boston,3 Commons Blvd,MA,2190,(617)123-4444,Account Representative,4 year degree,25000,75000
+555-56-5555,Charles,Kenneth,6/18/1998,"$40,000",M,Poor,1,2,Boston,3 Commons Blvd,MA,2190,(617)123-4444,Account Representative,4 year degree,25000,75000
+612-99-1111,Roberts,Melissa,5/14/1984,"$79,000",F,Good,2,3,Chicago,500 Loop Highway,IL,60620,(312)444-6666,Manager,4 year degree,50000,150000
+625-62-6262,Holmes,Holly,6/15/1992,"$55,000",F,Average,2,4,Miami,210 Biscayne Blvd,FL,33103,(305)787-9999,Manager,4 year degree,50000,150000
+767-74-7373,Martin,William,8/26/2006,"$23,000",M,Good,3,5,New York City,1650 Washington Blvd,NY,15648,(518)256-3100,Trainee,2 year degree,18000,25000
+776-67-6666,Adamson,David,10/4/2002,"$52,000",M,Poor,2,3,Chicago,500 Loop Highway,IL,60620,(312)444-6666,Manager,4 year degree,50000,150000
+777-78-7777,Marder,Kelly,9/25/1997,"$38,500",F,Average,1,3,Chicago,500 Loop Highway,IL,60620,(312)444-6666,Account Representative,4 year degree,25000,75000
+925-45-7116,Whitehead,David,7/25/1980,"$175,000",M,Good,4,2,Boston,3 Commons Blvd,MA,2190,(617)123-4444,Regional Manager,6 year degree,100000,250000
+,,,,,,,,,,,,,,,,,
+Location,,,,,,,,,,,,,,,,,
+locationID,locationcity,address,state,zipcode,officephone,,,,,,,,,,,,
+1,Atlanta,450 Peachtree Rd,GA,30316,(404)333-5555,,,,,,,,,,,,
+2,Boston,3 Commons Blvd,MA,2190,(617)123-4444,,,,,,,,,,,,
+3,Chicago,500 Loop Highway,IL,60620,(312)444-6666,,,,,,,,,,,,
+4,Miami,210 Biscayne Blvd,FL,33103,(305)787-9999,,,,,,,,,,,,
+5,New York City,1650 Washington Blvd,NY,15648,(518)256-3100,,,,,,,,,,,,
+6,Denver,312 Mount View Dr,CO,54657,(205)607-5289,,,,,,,,,,,,
+7,Salt Lake City,316 S. State St,UT,84125,(801)459-6652,,,,,,,,,,,,
+8,Los Angeles,1400 Main St,CA,94235,(705)639-0227,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Position,,,,,,,,,,,,,,,,,
+positionID,positiontitle,educationrequired,minsalary,maxsalary,,,,,,,,,,,,,
+1,Account Representative,4 year degree,"$25,000.00","$75,000.00",,,,,,,,,,,,,
+2,Manager,4 year degree,"$50,000.00","$150,000.00",,,,,,,,,,,,,
+3,Trainee,2 year degree,"$18,000.00","$25,000.00",,,,,,,,,,,,,
+4,Regional Manager,6 year degree,"$100,000.00","$250,000.00",,,,,,,,,,,,,
